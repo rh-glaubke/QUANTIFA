@@ -7,17 +7,17 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 ```
 |
 ├── model
-│   ├── QUANTIFA_Pac_v00.m        <--- Pacific Variant
-│   └── QUANTIFA_nonPac_v00.m     <--- Atlantic and Indian Variant
+│   ├── QUANTIFA_nonPac_v00.m      <--- Atlantic and Indian Variant
+│   └── QUANTIFA_Pac_v00.m         <--- Pacific Variant
 │
 ├── data
-│   ├── reanalysis
-│   │   ├── TA_ORAS5_download.py  <--- Tropical Atlantic Dataset
-│   │   ├── TP_ORAS5_download.py  <--- Tropical Pacific Dataset
-│   │   └── TI_ORAS5_download.py  <--- Tropical Indian Dataset
-│   │
-│   └── example_data
-│       └── QUANTIFA_TropPac_ExDataset.xlsx
+│   ├── example_data
+│   │   └── QUANTIFA_TropPac_ExDataset.xlsx
+│   │ 
+│   └──reanalysis
+│       ├── TA_ORAS5_download.py  <--- Tropical Atlantic Dataset
+│       ├── TI_ORAS5_download.py  <--- Tropical Indian Dataset
+│       └── TP_ORAS5_download.py  <--- Tropical Pacific Dataset
 │
 └── README.md
 ```
