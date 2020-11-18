@@ -7,7 +7,7 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 ```
 |
 ├── model
-│   ├── QUANTIFA_nonPac_v00.m      <--- Atlantic and Indian Variant
+│   ├── QUANTIFA_nonPac_v00.m      <--- Atlantic and Indian Variant [COMING SOON]
 │   └── QUANTIFA_Pac_v00.m         <--- Pacific Variant
 │
 ├── data
