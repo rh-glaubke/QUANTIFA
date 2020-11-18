@@ -5,10 +5,6 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 
 ## Repository Structure
 ```
-|
-├── model
-│   ├── QUANTIFA_nonPac_v00.m      <--- Atlantic and Indian Variant [COMING SOON]
-│   └── QUANTIFA_Pac_v00.m         <--- Pacific Variant
 │
 ├── data
 │   ├── example_data
@@ -18,6 +14,10 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 │       ├── TA_ORAS5_download.py  <--- Tropical Atlantic Dataset
 │       ├── TI_ORAS5_download.py  <--- Tropical Indian Dataset
 │       └── TP_ORAS5_download.py  <--- Tropical Pacific Dataset
+│
+├── model
+│   ├── QUANTIFA_nonPac_v00.m     <--- Atlantic and Indian Variant [COMING SOON]
+│   └── QUANTIFA_Pac_v00.m        <--- Pacific Variant
 │
 └── README.md
 ```
