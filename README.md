@@ -59,14 +59,14 @@ For examples of these figures and how to interpret them, please see the case stu
 The datasets we used in the model application exercises in our paper are available to download in this repository (QUANTIFA_TropPac_ExDataset.xlsx). These include IFA populations from the coast of New Caledonia (Schmitt et al., 2019), the Line Islands (White et al., 2018), and the eastern equatorial Pacific (Ford et al., 2015). Feel free to use these data to orient yourself with the algorithm (if you do, be sure to use the tropical Pacific variant of QUANTIFA and the TP_ORAS5 dataset). Please see our paper for proper references to these data.
 
 ## Disclaimer
-"All models are wrong, but some are useful." - George E. P. Box
+*"All models are wrong, but some are useful." - George E. P. Box*
 
 Please see section 4 of our manuscript (information below) for a detailing of the influences NOT accounted for in our algorithm. Also, I'm a pretty novice programmer. If you happen to stumble upon any bugs/errors in any of the algorithms stored in this repository, PLEASE bring them to my attention! Please also feel free to forward suggestions for making the code run more efficiently.
 
 ## Citation Information
 If this algorithm was helpful to you in your own research, please cite our paper!
 
-Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzberg (2021). Discerning Changes in High-Frequency Climate Variability using Geochemical Populations of Individual Foraminifera. Submitted to Paleoceanography and Paleoclimatology. doi:XXXX
+Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzberg (2021). Discerning Changes in High-Frequency Climate Variability using Geochemical Populations of Individual Foraminifera. *Paleoceanography and Paleoclimatology*. doi:10.1029/2020PA004065
 
 We would love to see all of the cool and interesting ways you choose to use this algorithm!
 
