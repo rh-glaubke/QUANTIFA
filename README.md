@@ -66,7 +66,7 @@ Please see section 4 of our manuscript (information below) for a detailing of th
 ## Citation Information
 If this algorithm was helpful to you in your own research, please cite our paper!
 
-Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzberg (2021). Discerning Changes in High-Frequency Climate Variability using Geochemical Populations of Individual Foraminifera. *Paleoceanography and Paleoclimatology*. doi:10.1029/2020PA004065
+Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzberg (2021). Discerning Changes in High-Frequency Climate Variability using Geochemical Populations of Individual Foraminifera. *Paleoceanography and Paleoclimatology*, *XX*(XX), XXX - XXX. https://doi.org/10.1029/2020PA004065
 
 We would love to see all of the cool and interesting ways you choose to use this algorithm!
 
