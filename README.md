@@ -69,6 +69,8 @@ Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzb
 We would love to see all of the cool and interesting ways you choose to use this algorithm!
 
 ## Version History
+### v1.0.0 - Full Launch (February 2, 2021)
+First full launch of QUANTIFA, coinciding with the release of our manuscript.
 ### v0.0.1 - Beta Release, Again (November 18, 2020)
 New release number generated to create a DOI through Zenodo. No content change between v0.0.0 and v0.0.1.
 ### v0.0.0 - Beta Release (August 3, 2020)
