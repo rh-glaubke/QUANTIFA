@@ -13,13 +13,13 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 │   │   └── QUANTIFA_TropPac_ExDataset.xlsx
 │   │ 
 │   └──reanalysis
-│       ├── TA_ORAS5_download.py  <--- Tropical Atlantic Dataset
-│       ├── TI_ORAS5_download.py  <--- Tropical Indian Dataset
-│       └── TP_ORAS5_download.py  <--- Tropical Pacific Dataset
+│       ├── TA_ORAS5_download.py  <--- Tropical Atlantic Reanalysis Dataset
+│       ├── TI_ORAS5_download.py  <--- Tropical Indian Reanalysis Dataset
+│       └── TP_ORAS5_download.py  <--- Tropical Pacific Reanalysis Dataset
 │
 ├── model
-│   ├── QUANTIFA_nonPac_v100.m     <--- Atlantic and Indian Variant
-│   └── QUANTIFA_Pac_v100.m        <--- Pacific Variant
+│   ├── QUANTIFA_nonPac_v100.m    <--- QUANTIFA: Atlantic and Indian Variant
+│   └── QUANTIFA_Pac_v100.m       <--- QUANTIFA: Pacific Variant
 │
 └── README.md
 ```
