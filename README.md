@@ -18,8 +18,8 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 │       └── TP_ORAS5_download.py  <--- Tropical Pacific Reanalysis Dataset
 │
 ├── model
-│   ├── QUANTIFA_nonPac_v100.m    <--- QUANTIFA: Atlantic and Indian Variant
-│   └── QUANTIFA_Pac_v100.m       <--- QUANTIFA: Pacific Variant
+│   ├── QUANTIFA_Pac_v100.m       <--- QUANTIFA: Pacific Variant
+│   └── QUANTIFA_nonPac_v100.m    <--- QUANTIFA: Atlantic and Indian Variant
 │
 └── README.md
 ```
