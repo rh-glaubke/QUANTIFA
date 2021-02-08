@@ -304,7 +304,7 @@ end
 
 % ---- Time Series Check ----
 
-if nnx(~isnan(T)) == 0
+if nnz(~isnan(T)) == 0
    disp(' ');
    error('Error: Land Ho! It looks like theres no temperature data in your indexed time series... maybe youve struck land? Try another set of coordinates.');
 end
