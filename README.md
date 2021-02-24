@@ -18,8 +18,8 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 │       └── TP_ORAS5_download.py  <--- Tropical Pacific Reanalysis Dataset
 │
 ├── model
-│   ├── QUANTIFA_Pac_v100.m       <--- QUANTIFA: Pacific Variant
-│   └── QUANTIFA_nonPac_v100.m    <--- QUANTIFA: Atlantic and Indian Variant
+│   ├── QUANTIFA_Pac_v101.m       <--- QUANTIFA: Pacific Variant
+│   └── QUANTIFA_nonPac_v101.m    <--- QUANTIFA: Atlantic and Indian Variant
 │
 └── README.md
 ```
@@ -68,11 +68,11 @@ If this algorithm was helpful to you in your own research, please cite our paper
 
 Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzberg (2021). Discerning Changes in High-Frequency Climate Variability using Geochemical Populations of Individual Foraminifera. *Paleoceanography and Paleoclimatology*, *36*(2), e2020PA004065. https://doi.org/10.1029/2020PA004065.
 
-(You can access the publication for free at this link: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2020PA004065)
-
 We would love to see all of the cool and interesting ways you choose to use this algorithm!
 
 ## Version History
+### v1.0.1 (February 24, 2020)
+- fixes a typo in the nnz() function during input parsing.
 ### v1.0.0 - Full Launch (February 2, 2021)
 First full launch of QUANTIFA, coinciding with the release of our manuscript.
 ### v0.0.1 - Beta Release, Again (November 18, 2020)
