@@ -1,9 +1,12 @@
 # QUANTIFA: Quantile Analysis of Temperature using Individual Foraminiferal Analyses
-[![DOI](https://zenodo.org/badge/313988706.svg)](https://zenodo.org/badge/latestdoi/313988706)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7775163.svg)](https://doi.org/10.5281/zenodo.7775163)
 
-QUANTIFA is a user-friendly IFA proxy system model that combines routines for modeling the sensitivity of IFA populations to changes in annual and interannual climate variability with tools for processing, plotting, and interpreting IFA-Mg/Ca data.
+QUANTIFA is a user-friendly proxy system model for Individual Foraminiferal Analyses (IFA) that combines routines for modeling the sensitivity of IFA populations to changes in climate variability with tools for processing, plotting, and interpreting IFA-Mg/Ca data.
 
 We hope you find this algorithm useful! Read on for brief instructions on how to download and use QUANTIFA.
+
+**Note**
+The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code. The publication associated with these changes is coming soon!
 
 ## Repository Structure
 ```
@@ -18,8 +21,8 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 │       └── TP_ORAS5_download.py  <--- Tropical Pacific Reanalysis Dataset
 │
 ├── model
-│   ├── QUANTIFA_Pac_v101.m       <--- QUANTIFA: Pacific Variant
-│   └── QUANTIFA_nonPac_v101.m    <--- QUANTIFA: Atlantic and Indian Variant
+│   ├── QUANTIFA_Pac_v200.m       <--- QUANTIFA: Pacific Variant (version 2.0.0)
+│   └── QUANTIFA_nonPac_v101.m    <--- QUANTIFA: Atlantic and Indian Variant (version 1.0.1)
 │
 └── README.md
 ```
@@ -40,7 +43,7 @@ All of this data means the data files are pretty large (>2 GB!) and cannot be up
 Please contact me if there is any trouble in retrieving these data files (rglaubke@marine.rutgers.edu). For any specific information regarding the ORA-S5 dataset, please refer to Zuo et al. (2019) (doi:10.5194/os-15-779-2019) or visit the Ocean Synthesis/Reanalysis Directory of the Integrated Climate Data Center: https://icdc.cen.uni-hamburg.de/daten/reanalysis-ocean/easy-init-ocean/ecmwf-oras5.html.
 
 ## Implementing the Algorithm
-For the most part, QUANTIFA should be a simple plug-and-play-style algorithm. The first section of code (following the model description) is an input window where the user can upload data and define input conditions. After defining these inputs, the algorithm should run smoothly. Small descriptions of each input parameter are included in the comments of the script for easy reference. You can also find a description of each input parameter in Table 1 of our published paper (see below for citation information).
+For the most part, QUANTIFA should be a simple plug-and-play-style algorithm. The first section of code (following the model description) is an input window where the user can upload data and define input conditions. After defining these inputs, the algorithm should run smoothly. Small descriptions of each input parameter are included in the comments of the script for easy reference. You can also find a description of each input parameter in Table 1 of our original publication (see below for citation information). You can find updates to some of these parameters in the methods of our upcoming publication (stay tuned).
 
 This algorithm can be used in one of three ways:
 
@@ -53,7 +56,7 @@ This algorithm can be used in one of three ways:
 ## Output Products
 QUANTIFA generates four primary output products: (1) a conformity contour plot illustrating the relative sensitivity of IFA populations at the specified location and depth to changes in annual and interannual climate variability; (2) a quantile-quantile (Q-Q) plot comparing the two inputted IFA populations (or a single IFA population against the ORA-S5 data); (3) a matrix containing false positive rates (mean and SD) for each individual quantile; and (3) a data-model consistency map illustrating the proportion of signficiant quantiles that align with a suite of hypothetical paleoclimate scenarios.
 
-For examples of these figures and how to interpret them, please see the case studies detailed in the discussion of our paper (see citation information below).
+For examples of these figures and how to interpret them, please see the case studies detailed in the discussion of our initial paper (see citation information below) or the discussion in an our upcoming publication (stay tuned). 
 
 ## Example Datasets
 The datasets we used in the model application exercises in our paper are available to download in this repository (QUANTIFA_TropPac_ExDataset.xlsx). These include IFA populations from the coast of New Caledonia (Schmitt et al., 2019), the Line Islands (White et al., 2018), and the eastern equatorial Pacific (Ford et al., 2015). Feel free to use these data to orient yourself with the algorithm (if you do, be sure to use the tropical Pacific variant of QUANTIFA and the TP_ORAS5 dataset). Please see our paper for proper references to these data.
@@ -64,13 +67,24 @@ The datasets we used in the model application exercises in our paper are availab
 Please see section 4 of our manuscript (information below) for a detailing of the influences NOT accounted for in our algorithm. Also, I'm a pretty novice programmer. If you happen to stumble upon any bugs/errors in any of the algorithms stored in this repository, PLEASE bring them to my attention! Please also feel free to forward suggestions for making the code run more efficiently.
 
 ## Citation Information
-If this algorithm was helpful to you in your own research, please cite our paper!
+If this algorithm was helpful to you in your own research, please cite us!
 
+**Initial Release:**
 Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzberg (2021). Discerning Changes in High-Frequency Climate Variability using Geochemical Populations of Individual Foraminifera. *Paleoceanography and Paleoclimatology*, *36*(2), e2020PA004065. https://doi.org/10.1029/2020PA004065.
+
+**Latest Version (2.0.0)**
+Stay tuned...
 
 We would love to see all of the cool and interesting ways you choose to use this algorithm!
 
 ## Version History
+### v2.0.0 (March 27, 2023)
+- Manipulates ENSO amplitude and frequency using a new "ENSO variability" metric.
+- Depth input parameter ('dep') now accepts a range of depth and associated weights—rather than a single depth horizon—to more accurately parameterize a species' depth distribution.
+- Updates the seasonal bias input parameter ('seas') to weight the picking algorithm towards a species' season of production, rather than picking from that season exclusively.
+- Includes a new barycenter calculation that reports the "center of gravity" coordinates of the data-model consistency maps.
+- Fixes a bug where the seasonal climatology calculation was including ENSO event years.
+- Features a progress bar to help keep track of those runs!
 ### v1.0.1 (February 24, 2020)
 - fixes a typo in the nnz() function during input parsing.
 ### v1.0.0 - Full Launch (February 2, 2021)
