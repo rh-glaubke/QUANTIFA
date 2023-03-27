@@ -1,12 +1,12 @@
 # QUANTIFA: Quantile Analysis of Temperature using Individual Foraminiferal Analyses
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7775163.svg)](https://doi.org/10.5281/zenodo.7775163)
 
+> **Note**
+> The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code. The publication associated with these changes is coming soon!
+
 QUANTIFA is a user-friendly proxy system model for Individual Foraminiferal Analyses (IFA) that combines routines for modeling the sensitivity of IFA populations to changes in climate variability with tools for processing, plotting, and interpreting IFA-Mg/Ca data.
 
 We hope you find this algorithm useful! Read on for brief instructions on how to download and use QUANTIFA.
-
-> **Note**
-> The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code. The publication associated with these changes is coming soon!
 
 ## Repository Structure
 ```
