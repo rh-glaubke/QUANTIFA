@@ -5,8 +5,8 @@ QUANTIFA is a user-friendly proxy system model for Individual Foraminiferal Anal
 
 We hope you find this algorithm useful! Read on for brief instructions on how to download and use QUANTIFA.
 
-**Note**
-The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code. The publication associated with these changes is coming soon!
+> **Note**
+> The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code. The publication associated with these changes is coming soon!
 
 ## Repository Structure
 ```
