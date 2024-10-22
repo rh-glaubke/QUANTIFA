@@ -2,8 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7775163.svg)](https://doi.org/10.5281/zenodo.7775163)
 
 > **Note**
-> The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code, but is currently only available for the Tropical Pacific. The publication associated with these changes has just been published:/n
-> Glaubke, R. H., M. W. Schmidt, J. E. Hertzberg, L. G. Ward, F. Marcantonio, D. Schimmenti, K. Thirumalai (2024). Divergent ENSO Responses to Northern Hemisphere Stadials during the Last Deglaciation. Geophysical Research Letters, 51(12), https://doi.org/10.1029/2023gl107634
+> The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code, but is currently only available for the Tropical Pacific. The publication associated with these changes is noted below.
 
 QUANTIFA is a user-friendly proxy system model for Individual Foraminiferal Analyses (IFA) that combines routines for modeling the sensitivity of IFA populations to changes in climate variability with tools for processing, plotting, and interpreting IFA-Mg/Ca data.
 
@@ -73,13 +72,13 @@ If this algorithm was helpful to you in your own research, please cite us!
 **Initial Release:**
 Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzberg (2021). Discerning Changes in High-Frequency Climate Variability using Geochemical Populations of Individual Foraminifera. *Paleoceanography and Paleoclimatology*, *36*(2), e2020PA004065. https://doi.org/10.1029/2020PA004065.
 
-**Latest Version (2.0.0)**
-Stay tuned...
+**Latest Version (2.0.0):**
+Glaubke, R. H., M. W. Schmidt, J. E. Hertzberg, L. G. Ward, F. Marcantonio, D. Schimmenti, K. Thirumalai (2024). Divergent ENSO Responses to Northern Hemisphere Stadials during the Last Deglaciation. Geophysical Research Letters, 51(12), https://doi.org/10.1029/2023gl107634
 
 We would love to see all of the cool and interesting ways you choose to use this algorithm!
 
 ## Version History
-### v2.0.0 (March 27, 2023)
+### v2.0.0 (March 27, 2023) -- Tropical Pacific ONLY
 - Manipulates ENSO amplitude and frequency using a new "ENSO variability" metric.
 - Depth input parameter ('dep') now accepts a range of depth and associated weights—rather than a single depth horizon—to more accurately parameterize a species' depth distribution.
 - Updates the seasonal bias input parameter ('seas') to weight the picking algorithm towards a species' season of production, rather than picking from that season exclusively.
