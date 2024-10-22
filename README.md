@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7775163.svg)](https://doi.org/10.5281/zenodo.7775163)
 
 > **Note**
-> The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code, but is currently only available for the Tropical Pacific. The publication associated with these changes has just been published:
+> The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code, but is currently only available for the Tropical Pacific. The publication associated with these changes has just been published:/n
 > Glaubke, R. H., M. W. Schmidt, J. E. Hertzberg, L. G. Ward, F. Marcantonio, D. Schimmenti, K. Thirumalai (2024). Divergent ENSO Responses to Northern Hemisphere Stadials during the Last Deglaciation. Geophysical Research Letters, 51(12), https://doi.org/10.1029/2023gl107634
 
 QUANTIFA is a user-friendly proxy system model for Individual Foraminiferal Analyses (IFA) that combines routines for modeling the sensitivity of IFA populations to changes in climate variability with tools for processing, plotting, and interpreting IFA-Mg/Ca data.
