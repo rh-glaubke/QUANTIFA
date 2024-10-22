@@ -73,7 +73,7 @@ If this algorithm was helpful to you in your own research, please cite us!
 Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzberg (2021). Discerning Changes in High-Frequency Climate Variability using Geochemical Populations of Individual Foraminifera. *Paleoceanography and Paleoclimatology*, *36*(2), e2020PA004065. https://doi.org/10.1029/2020PA004065.
 
 **Latest Version (2.0.0):**
-Glaubke, R. H., M. W. Schmidt, J. E. Hertzberg, L. G. Ward, F. Marcantonio, D. Schimmenti, K. Thirumalai (2024). Divergent ENSO Responses to Northern Hemisphere Stadials during the Last Deglaciation. Geophysical Research Letters, 51(12), https://doi.org/10.1029/2023gl107634
+Ryan H. Glaubke, Matthew W. Schmidt, Jennifer E. Hertzberg, Lenzie G. Ward, Franco Marcantonio, Danielle Schimmenti, Kaustubh Thirumalai (2024). Divergent ENSO Responses to Northern Hemisphere Stadials during the Last Deglaciation. *Geophysical Research Letters*, 51(12), https://doi.org/10.1029/2023gl107634
 
 We would love to see all of the cool and interesting ways you choose to use this algorithm!
 
