@@ -1,4 +1,4 @@
-![Alt Text] (https://www.dropbox.com/scl/fi/lwsjsj6ca883fjo6hqcy5/quantifa_logo.png?rlkey=40lj5rp2p3zpniyuvsexpxm67&st=txkiskh1?raw=1)
+![Alt Text] (https://dl.dropboxusercontent.com/scl/fi/lwsjsj6ca883fjo6hqcy5/quantifa_logo.png?rlkey=40lj5rp2p3zpniyuvsexpxm67&st=txkiskh1&dl=0)
 
 # QUANTIFA: Quantile Analysis of Temperature using Individual Foraminiferal Analyses
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7775163.svg)](https://doi.org/10.5281/zenodo.7775163)
