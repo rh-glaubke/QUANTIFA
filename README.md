@@ -85,7 +85,7 @@ We would love to see all of the cool and interesting ways you choose to use this
 - Includes a new barycenter calculation that reports the "center of gravity" coordinates of the data-model consistency maps.
 - Fixes a bug where the seasonal climatology calculation was including ENSO event years.
 - Features a progress bar to help keep track of those runs!
-### v1.0.1 (February 24, 2020)
+### v1.0.1 (February 24, 2021)
 - fixes a typo in the nnz() function during input parsing.
 ### v1.0.0 - Full Launch (February 2, 2021)
 First full launch of QUANTIFA, coinciding with the release of our manuscript.
