@@ -69,7 +69,7 @@ I'm a novice programmer. If you stumble upon any bugs, PLEASE bring them to my a
 ## Citation Information
 If this algorithm was helpful to you in your own research, please cite us!
 
-**Latest Version (2.0.0):**
+**Latest Version:**
 Ryan H. Glaubke, Matthew W. Schmidt, Jennifer E. Hertzberg, Lenzie G. Ward, Franco Marcantonio, Danielle Schimmenti, Kaustubh Thirumalai (2024). Divergent ENSO Responses to Northern Hemisphere Stadials during the Last Deglaciation. *Geophysical Research Letters*, 51(12), https://doi.org/10.1029/2023gl107634
 
 **Initial Release:**
@@ -79,18 +79,17 @@ We would love to see all of the cool and interesting ways you choose to use this
 
 ## Version History
 ### v2.0.0 (March 27, 2023) -- Tropical Pacific ONLY
-- Manipulates ENSO amplitude and frequency using a new "ENSO variability" metric.
-- Depth input parameter ('dep') now accepts a range of depth and associated weights—rather than a single depth horizon—to more accurately parameterize a species' depth distribution.
-- Updates the seasonal bias input parameter ('seas') to weight the picking algorithm towards a species' season of production, rather than picking from that season exclusively.
+- Adds a new "ENSO variability" metric that manipulates ENSO amplitude *and* frequency.
+- Depth input parameter (```dep```) now accepts a range of depths and associated weights to more accurately parameterize a species' depth distribution.
+- Updates the seasonal bias input parameter (```seas```) to weight the picking algorithm towards a species' preferred growth season, rather than picking from that season exclusively.
 - Includes a new barycenter calculation that reports the "center of gravity" coordinates of the data-model consistency maps.
 - Fixes a bug where the seasonal climatology calculation was including ENSO event years.
 - Features a progress bar to help keep track of those runs!
 ### v1.0.1 (February 24, 2021)
-- fixes a typo in the nnz() function during input parsing.
+- Pushes a hotfix to the nnz() function during input parsing.
 ### v1.0.0 - Full Launch (February 2, 2021)
 First full version of QUANTIFA coinciding with the release of our manuscript.
 ### v0.0.1 - Beta Release, Again (November 18, 2020)
-Released to mint a DOI through Zenodo. No content change between v0.0.0 and v0.0.1.
-### v0.0.0 - Beta Release<br/>
-*August 3, 2020*<br/>
+Released to mint a DOI through Zenodo. No content change from prior version.
+### v0.0.0 - Beta Release (August 3, 2020)
 All code and documentation posted online for manuscipt review purposes.
