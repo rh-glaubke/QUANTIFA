@@ -91,6 +91,6 @@ We would love to see all of the cool and interesting ways you choose to use this
 First full version of QUANTIFA coinciding with the release of our manuscript.
 ### v0.0.1 - Beta Release, Again (November 18, 2020)
 Released to mint a DOI through Zenodo. No content change between v0.0.0 and v0.0.1.
-### v0.0.0 - Beta Release
+### v0.0.0 - Beta Release<br/>
 *August 3, 2020*<br/>
 All code and documentation posted online for manuscipt review purposes.
