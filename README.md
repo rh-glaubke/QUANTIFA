@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7775163.svg)](https://doi.org/10.5281/zenodo.7775163)
 
 > **Note**
-> The latest version of QUANTIFA (2.0.0) includes big changes to the model's core code, but is currently only available for the Tropical Pacific. The publication associated with these changes is noted below.
+> The latest version of QUANTIFA (2.0.1) includes big changes to the model's core code. The publication associated with these changes is noted below.
 
 QUANTIFA is a user-friendly proxy system model for Individual Foraminiferal Analyses (IFA) that combines routines for modeling the sensitivity of IFA populations to changes in climate variability with tools for processing, plotting, and interpreting IFA-Mg/Ca data.
 
@@ -21,8 +21,8 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 │       └── TP_ORAS5_download.py  <--- Tropical Pacific Reanalysis Dataset
 │
 ├── model
-│   ├── QUANTIFA_Pac_v200.m       <--- QUANTIFA: Pacific Variant (version 2.0.0)
-│   └── QUANTIFA_nonPac_v101.m    <--- QUANTIFA: Atlantic and Indian Variant (version 1.0.1)
+│   ├── QUANTIFA_Pac_v201.m       <--- QUANTIFA: Pacific Variant (version 2.0.1)
+│   └── QUANTIFA_nonPac_v201.m    <--- QUANTIFA: Atlantic and Indian Variant (version 2.0.1)
 │
 └── README.md
 ```
@@ -30,7 +30,7 @@ We hope you find this algorithm useful! Read on for brief instructions on how to
 QUANTIFA can be downloaded directly from this repository. The algorithm comes in two variants: a Pacific variant (QUANTIFA_Pac_v###.m) and a non-Pacific variant (QUANTIFA_nonPac_v###.m). Be sure to download the correct variant based on your region of interest.
 
 ## Downloading the ORA-S5 Dataset
-QUANTIFA is designed to work with the Ocean Reanalysis System 5 data assimilation (ORA-S5). Included within this repository are three small python scripts that can be used to download data from three major ocean regions: the tropical Pacific Ocean, the tropical Atlantic Ocean, and tropical Indian Ocean. Each downloaded data file contains a three-dimensional gridded field of potential temperature data at a 1° x 1° horizontal resolution for 75 depth levels (0 - 5902 m). Each grid box contains a 61-year time series of monthly mean potential temperature data extending from Jan 1958 – Dec 2018.
+QUANTIFA is designed to work with the Ocean Reanalysis System 5 data assimilation (ORA-S5). Included within this repository are three small python scripts that can be used to download data from three major ocean regions: the tropical Pacific Ocean, the tropical Atlantic Ocean, and the tropical Indian Ocean. Each downloaded data file contains a three-dimensional gridded field of potential temperature data at a 1° x 1° horizontal resolution for 75 depth levels (0 - 5902 m). Each grid box contains a 61-year time series of monthly mean potential temperature data extending from Jan 1958 – Dec 2018.
 
 To download these data, just follow these steps:
 
@@ -43,7 +43,7 @@ To download these data, just follow these steps:
 Please contact me if there is any trouble in retrieving these data files (glaubke@arizona.edu). For any specific information regarding the ORA-S5 dataset, please refer to Zuo et al. (2019) (doi:10.5194/os-15-779-2019) or visit the Ocean Synthesis/Reanalysis Directory of the Integrated Climate Data Center: https://icdc.cen.uni-hamburg.de/daten/reanalysis-ocean/easy-init-ocean/ecmwf-oras5.html.
 
 ## Implementing the Algorithm
-QUANTIFA is a simple plug-and-play-style algorithm. The first section of code (following the model description) is an input window where the user can upload data and define input conditions. After defining these inputs, the algorithm should run smoothly. Small descriptions of each input parameter are included in the comments of the script for easy reference. You can also find a description of each input parameter in Table 1 of our original publication (see below for citation information). A few parameters have been tweaked for QUANTIFA v2.0.0 (Tropical Pacific only) which are detailed in the supporting information of our latest publication (see citation information below).
+QUANTIFA is a simple plug-and-play-style algorithm. The first section of code (following the model description) is an input window where the user can upload data and define input conditions. After defining these inputs, the algorithm should run smoothly. Small descriptions of each input parameter are included in the comments of the script for easy reference. You can also find a description of each input parameter in Table 1 of our original publication (see below for citation information). A few parameters have been tweaked for QUANTIFA v2.0.1 which are detailed in the supporting information of our latest publication (see citation information below).
 
 This algorithm can be used in one of three ways:
 
@@ -78,6 +78,8 @@ Ryan H. Glaubke, Kaustubh Thirumalai, Matthew W. Schmidt, and Jennifer E. Hertzb
 We would love to see all of the cool and interesting ways you choose to use this algorithm!
 
 ## Version History
+### v2.0.1 (July 29, 2025)
+- 
 ### v2.0.0 (March 27, 2023) -- Tropical Pacific ONLY
 - Adds a new "ENSO variability" metric that manipulates ENSO amplitude *and* frequency.
 - Depth input parameter (```dep```) now accepts a range of depths and associated weights to more accurately parameterize a species' depth distribution.
