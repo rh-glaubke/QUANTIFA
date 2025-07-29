@@ -79,7 +79,8 @@ We would love to see all of the cool and interesting ways you choose to use this
 
 ## Version History
 ### v2.0.1 (July 29, 2025)
-- 
+- Pushes a hotfix to the picking scheme so that analytical, ecological, and calibration error is properly propagated.
+- Carries over all new features from v2.0.0 to the non-Pacific variant.
 ### v2.0.0 (March 27, 2023) -- Tropical Pacific ONLY
 - Adds a new "ENSO variability" metric that manipulates ENSO amplitude *and* frequency.
 - Depth input parameter (```dep```) now accepts a range of depths and associated weights to more accurately parameterize a species' depth distribution.
