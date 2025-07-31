@@ -1,5 +1,5 @@
 %% Quantile Analysis of Temperature using Individual Foraminiferal Analyses
-% Tropical Pacific Ocean Variant (version 2.0.0)
+% Tropical Pacific Ocean Variant (version 2.0.1)
 %
 % ---- About ----     
 %
@@ -9,7 +9,7 @@
 % Mg/Ca data. Please see the README document on GitHub (https://github.com/
 % rh-glaubke/QUANTIFA) for a quickstart guide on how to use this algorithm. 
 %
-% This is the second version of QUANTIFA (v2.0.0) and comes with all new 
+% This is the second version of QUANTIFA (v2.0.1) and comes with all new 
 % features, including:
 %
 % (1) a new "ENSO variability" metric that manipulates both ENSO amplitude 
@@ -41,7 +41,7 @@
 % Latest Update: July 2025
 % 
 % Citations: 
-% v2.0.0 — Glaubke et al. (2024). An inconsistent ENSO response to Northern
+% v2.0.1 — Glaubke et al. (2024). An inconsistent ENSO response to Northern
 %          Hemisphere stadials over the Last Deglaciation. Geophysical
 %          Research Letters. doi:10.1029/2023gl107634
 %
@@ -187,7 +187,7 @@ savefig = 0;                    % 1 = Save figures (PDF)
 
 disp('------------------------------------------------------------------------');
 disp('Quantile Analysis of Temperature using Individual Foraminiferal Analyses');
-disp('(QUANTIFA) v2.0.0 - Tropical Pacific Variant');
+disp('(QUANTIFA) v2.0.1 - Tropical Pacific Variant');
 disp(' ');
 disp('Written by Ryan Glaubke and Kaustubh Thirumalai'); 
 disp('Latest Update: July 2025');
